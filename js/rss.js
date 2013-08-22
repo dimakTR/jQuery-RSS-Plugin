@@ -13,8 +13,7 @@ $.fn.rsswidget = function(options){
         var options = jQuery.extend({
         url: "http://feeds.reuters.com/Reuters/worldNews",
         positions: 3,
-        interval : 60000,
-        phpurl: "./xml/xml.php?rssUrl="
+        interval : 60000
         },options);     
         $(this).append('<div id="main"/>');
         getData();
@@ -37,7 +36,7 @@ $.fn.rsswidget = function(options){
      // var rssUrl = "http://news.drweb.ua/rss/get/?c=9&lng=ru";
       var rssUrl = options.url;
         $.ajax({
-            url: options.phpurl + rssUrl,
+            url: "./xml/xml.php?rssUrl=" + rssUrl,
             dataType: "xml",
             success: getRSS, 
             error: function(){
