@@ -1,0 +1,53 @@
+#main {	
+    position : relative;
+    margin:0 auto;
+	width : 300px;
+    height : 600px;
+	border: 2px outset rgba(112,112,112,0.5);
+	background-color : rgba(215, 215, 215, 0.5);
+    overflow-y: scroll;  
+}
+.news {
+    position: relative;
+    display : none;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    border: 1px solid rgba(150,150,150,0.5);
+    width : 260px;
+    overflow : hidden;
+    padding: 2px;
+    background-color: rgba(255,255,255,0.4);
+}
+#load{
+    position: relative;
+    margin-top: 80%;
+    width: 120px; 
+    height: 120px;
+    margin-left: 10%;
+}
+.error{
+    margin-top: 80%;
+    color : red;
+    font-weight: bold;
+    font-size: 50px;
+}
+.date{
+    font-size: 13px;
+    text-align : right;
+    color: grey;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.description{
+    font-size: 14px;
+    text-align : center;
+    padding-left: 2px;
+    padding-right: 2px; 
+}
+.link{
+    font-size: 18px;
+    text-align : center;
+    padding-left: 2px;
+    padding-right: 2px;  
+}
