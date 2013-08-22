@@ -25,4 +25,4 @@ $("body").rsswidget({
     positions: 5,    <--it will show us 5 last items(news) in the plugin window-->
     interval: 60000  <--refresh plugin window and downloading newest news with interval of three minutes-->
 });
-=====================================
+
