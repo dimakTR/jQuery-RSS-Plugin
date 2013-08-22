@@ -11,18 +11,19 @@ Installing:
 Attach rss.js library to your site.
 
 Using:
-Plugin have few parametrs:
-  url - path to the feed's xml file (like "http://feeds.reuters.com/Reuters/worldNews").
-  positions - how many items need's to be in the plugin window.
-  interval - time interval between reuploading of the feed in miliseconds.
+Plugin have few parametrs:<br>
+  url - path to the feed's xml file (like "http://feeds.reuters.com/Reuters/worldNews").<br>
+  positions - how many items need's to be in the plugin window.<br>
+  interval - time interval between reuploading of the feed in miliseconds.<br>
   
 If you want you can use all or only necessary parameters.
 
 Example of using the plugin:
 =====================================
-$("body").rsswidget({
+<pre>
+<code>$("body").rsswidget({
     url : "http://feeds.reuters.com/Reuters/worldNews", <--url of the feed-->
     positions: 5,    <--it will show us 5 last items(news) in the plugin window-->
     interval: 60000  <--refresh plugin window and downloading newest news with interval of three minutes-->
-});
-
+}); <code>
+<pre>
